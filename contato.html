@@ -23,7 +23,7 @@ footer{align-items: center;margin-top: 66px;}
 #text{width: 300px;height: 30px;border-radius: 10px;}
 #email{width: 300px;height: 30px;border-radius: 10px;}
 #text2{width: 300px;height: 150px;border-radius: 10px;}
-#Enviar{background-color: green;width: 300px;height: 40px; border: 0;border-radius: 10px;font-size: 15px;cursor: grab;}
+#enviar{background-color: green;width: 300px;height: 40px; border: 0;border-radius: 10px;font-size: 15px;cursor: grab;}
 h1{font-size: 130px;color: white;}
 p{color: white;}
 </style>
@@ -49,14 +49,14 @@ p{color: white;}
         <h1>Viniszinnfps</h1><br><br><br><br>
         <div id="form">          
 
-            <form action="https://formsubmit.co/83a635de8c561847e7ae36bb9adf798b" method="POST">
+            <form action="https://formsubmit.co/viniciuscaamano@icloud.com" method="POST">
                 <p>Insira seu nome completo:</p>
-                <input type="text" id="text" name="name"><br><br>
+                <input type="text" id="text" name="name" required><br><br>
                 <p>Digite seu e-mail:</p>
-                <input type="email" id="email" name="email"><br><br>
+                <input type="email" id="email" name="email" required><br><br>
                 <p>Insira sua menssagem:</p>
-                <input type="text" id="text2"><br><br>
-                <input type="submit" value="Enviar" id="Enviar">
+                <input type="text" id="text2" name="text"><br><br>
+                <button type="submit" id="enviar">Enviar</button>
                 <input type="hidden" name="_next" value="https://viniszinnfps.github.io/inicio/thanks.html">
             
             </form>
