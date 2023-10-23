@@ -11,9 +11,9 @@
 *{margin: 0px; padding: 0px;;}
 body{background-color: black;}
 #menu{background-color: rgb(14, 13, 13);}
-#menu ul{text-align: right;padding: 0px 400px;}
-#menu ul li button{background-color: greenyellow; width: 100px; height: 50px; border: 0px;border-radius: 5px; }
-#menu ul li button a{text-decoration: none; color: rgb(194, 194, 194);font-size:17px}
+#menu ul{justify-content: flex-end;display: flex;list-style-type: none;padding-right: 300px;}
+#menu ul li button{background-color: greenyellow; width: 100px; height: 50px; border: 0px;border-radius: 5px; margin-right: 2px;}
+#menu ul li button a{ text-decoration: none;color: rgb(194, 194, 194);font-size:17px}
 #menu ul li button a:hover{color: white; cursor:grab; }
 #main {display: flex; align-items: center;justify-content: space-evenly;padding-top: 90px;}
 #main h1{color: white; font-size: 130px;}
@@ -33,7 +33,14 @@ footer{align-items: center;padding-top: 90px;}
     <Div id="menu">
         <ul>
             <li>
+                <button><a href="index.html">inicio</a></button>
+            </li>
+        
+            <li>
                 <button><a href="contato.html">Contato</a></button>
+            </li>
+            <li>
+                <button><a href="twitch.html">LIVE</a></button>
             </li>
         </ul>
     

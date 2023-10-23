@@ -1,13 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
- 
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Viniszinnfps</title>
+    <link rel="icon" type="image/x-icon" href="icone.jpg">
 </head>
 
+<style>
+*{margin: 0px; padding: 0px;;}
+body{background-color: black;}
+#menu{background-color: rgb(14, 13, 13);}
+#menu ul{justify-content: flex-end;display: flex;list-style-type: none;padding-right: 300px;}
+#menu ul li button{background-color: greenyellow; width: 100px; height: 50px; border: 0px;border-radius: 5px; margin-right: 2px;}
+#menu ul li button a{ text-decoration: none;color: rgb(194, 194, 194);font-size:17px}
+#menu ul li button a:hover{color: white; cursor:grab; }
+#media{padding-top: 200px; display: flex;justify-content: center;}
+footer{align-items: center;padding-top: 180px;}
+#footer h1{color: white; font-size: 15px;text-align: center;}
+
+</style>
+
 <body>  
+
+    <header>
+        <Div id="menu">
+            <ul>
+                <li>
+                    <button><a href="index.html">inicio</a></button>
+                </li>
+            
+                <li>
+                    <button><a href="contato.html">contato</a></button>
+                </li>
+            </ul>
+        
+        </Div>
+
+    </header>
+ <main>
+    <Div id="media">
     <iframe src="https://player.twitch.tv/?channel=viniszinnfps&parent=viniszinnfps.github.io" frameborder="0" allowfullscreen="true" scrolling="no" height="378" width="620"></iframe>
+    <iframe
+    id="chat_embed"
+    src="https://www.twitch.tv/embed/viniszinnfps/chat?parent=www.example.com"
+    height="500"
+    width="350">
+  </iframe>
 
-
+</Div>
+</main>
+<footer>
+    <div id="footer">
+        <h1>viniszinfps @ todos os direitos reservado.</h1>
+    </div>
+    </footer>
 </body>
 </html>
